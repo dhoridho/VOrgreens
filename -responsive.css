@@ -1,0 +1,140 @@
+@media (max-width: 460px){
+    header .container{
+        text-align: center;
+        align-items: center;
+    }
+   
+    header .container h1{
+        float: unset;
+    }
+
+    .container ul{
+        font-size: 80%;
+        align-items: center;
+    }
+
+    .nav-section{
+        height: 400px;
+    }
+
+    #content-header{
+        padding-top: 220px;
+        font-size: 90%;
+    }
+
+    .content-container{
+    min-height: 260px;
+    min-width: 130px;
+    margin: 50px 0;
+    padding: 0 100px 100px;
+    display: block;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    }
+
+
+    .about{
+        font-size: 70%;
+    }
+
+    .findus{
+        font-size: 70%;
+    }
+
+    .logo{
+        height: 50%;
+        width: 50%;
+        display: inline-block;
+    }
+
+
+    /* MENU */
+
+    .menu-container{
+        display:flex;
+        flex-direction: column;
+        padding-top: 60px;
+        align-items: center;
+        
+    }
+    .menu-content{
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px 0;
+    }
+    .search-container {
+        padding:0;
+        width: 260px;
+       
+    }
+
+    .search-container input[type=search] {
+        width: 278px;
+    }
+
+    .menu-card img{
+        width: auto;
+    }
+
+
+    /* FOOTER */
+
+    footer{
+        height: 600px;
+    }
+
+    .footer-menu.exp{
+        padding:0;
+    }
+    .footer-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 728px) {
+
+    .content-container{
+        min-height: 260px;
+        min-width: 130px;
+        margin: 50px 0;
+        padding: 0 100px 100px;
+        display: block;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 80px;
+        }
+   
+    /* MENU */ 
+
+    .menu-container{
+        display:flex;
+        flex-direction: column;
+        padding-top: 60px;
+        align-items: center;
+    
+    }
+    .menu-content{
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 55px 0;
+    }
+    .search-container {
+        padding:0;
+        width: 260px;
+       
+    }
+
+    footer{
+        height: 600px;
+    }
+
+    .footer-menu.exp{
+        padding:0;
+    }
+    .footer-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
